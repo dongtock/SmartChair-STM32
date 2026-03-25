@@ -42,7 +42,7 @@
 
 | 시리얼 모니터 초기화 로그 | OLED 초기화 표시 |
 |:---:|:---:|
-| ![serial_init](docs/serial_init.png) | ![oled_init_1](docs/oled_init_1.png) ![oled_init_2](docs/oled_init_2.png) |
+| ![serial_init](docs/serial_init.png) | <img src="docs/oled_init_1.png" width="200"> <img src="docs/oled_init_2.png" width="200"> |
 
 ### 실시간 센서 데이터 수집
 
