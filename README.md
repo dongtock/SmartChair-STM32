@@ -40,9 +40,9 @@
 
 시리얼 모니터 (115200 baud)와 OLED를 통해 초기화 결과를 확인할 수 있습니다.
 
-| 시리얼 모니터 초기화 로그 | OLED 초기화 표시 | |
-|:---:|:---:|:---:|
-| ![serial_init](docs/serial_init.png) | ![oled_init_1](docs/oled_init_1.png) | ![oled_init_2](docs/oled_init_2.png) |
+| 시리얼 모니터 초기화 로그 | OLED 초기화 표시 |
+|:---:|:---:|
+| ![serial_init](docs/serial_init.png) | ![oled_init_1](docs/oled_init_1.png) ![oled_init_2](docs/oled_init_2.png) |
 
 ### 실시간 센서 데이터 수집
 
