@@ -561,7 +561,7 @@ handshake_done:
       for (int i = 8; i < 12; i++)
         seat_weight_sum += (current_raw[i] - hx711_offset[i]);
 
-      if (seat_weight_sum > 50000)
+      if (seat_weight_sum > 225000)
       {
         is_seated = 1;
         HAL_UART_Transmit(&huart1, (uint8_t*)"SIT\n", 4, 100);
@@ -711,7 +711,7 @@ handshake_done:
         }
 
         // 이탈(5초) 감지
-        if (seat_sum < 50000) {
+        if (seat_sum < 225000) {
           empty_count++;
           if (empty_count >= 250) {
             HAL_UART_Transmit(&huart1, (uint8_t*)"STAND\n", 6, 10);
